@@ -19,7 +19,7 @@
 </head>
 
 <body>
-	<nav class="navbar navbar-secondary bg-secondary">
+	<nav class="navbar navbar-aqua bg-aqua">
 		<div class="container-fluid">
 			<button class="btn btn-secondary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">MENU <i class="fa-solid fa-bars"></i></button>
 			<h3>SISPERS (SISTEM INFORMASI PERSONEL)</h3>
@@ -40,24 +40,66 @@
 			<h5 class="offcanvas-title " id="offcanvasScrollingLabel">SISPERS</h5>
 			<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
 		</div>
-		<div class="dropdown ">
-			<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
-				PERSONEL
+
+		<div class="btn-group dropend">
+			<button class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+				ADMIN
 			</button>
-			<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-				<li><a class="dropdown-item" href="#">LIST ANGGOTA</a></li>
+			<ul class="dropdown-menu">
+				<li><a class="dropdown-item" href="#">LIST ADMIN</a></li>
+				<li><a class="dropdown-item" href="#">TAMBAH ADMIN</a></li>
 			</ul>
 		</div>
+		<br>
+
+		<div class="btn-group dropend">
+			<button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+				ANGGOTA
+			</button>
+			<ul class="dropdown-menu">
+				<li><a class="dropdown-item" href="#">LIST ANGGOTA</a></li>
+				<li><a class="dropdown-item" href="#">TAMBAH ANGGOTA</a></li>
+			</ul>
+		</div>
+
+
 	</div>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<footer class="sticky-footer">
+		<div class="container my-auto">
+			<div class="copyright text-center my-auto">
+				<span>Copyright <?php echo "BAGRENMIN ", DATE("Y")  ?></span>
+			</div>
+		</div>
+	</footer>
+
 </body>
 
-
-<style type="text/css">
-	.offcanvasScrolling {
-		width: 90px !important;
-		background-color: #545b62;
-		min-height: calc(100vh - 56px);
-	}
-</style>
 
 </html>
