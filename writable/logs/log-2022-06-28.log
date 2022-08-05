@@ -1,0 +1,130 @@
+CRITICAL - 2022-06-28 00:06:54 --> Call to a member function helper() on null
+in APPPATH\Views\container.php on line 12.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('container', [], true)
+ 4 APPPATH\Controllers\Home.php(9): view('container')
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-28 00:12:27 --> Call to a member function helper() on null
+in APPPATH\Views\container.php on line 12.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('container', [], true)
+ 4 APPPATH\Controllers\Home.php(9): view('container')
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-28 00:12:30 --> Call to a member function helper() on null
+in APPPATH\Views\container.php on line 12.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('container', [], true)
+ 4 APPPATH\Controllers\Home.php(9): view('container')
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-28 00:12:35 --> Call to a member function helper() on null
+in APPPATH\Views\container.php on line 12.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('container', [], true)
+ 4 APPPATH\Controllers\Home.php(9): view('container')
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-28 00:12:37 --> Call to a member function helper() on null
+in APPPATH\Views\container.php on line 12.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('container', [], true)
+ 4 APPPATH\Controllers\Home.php(9): view('container')
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-28 00:48:50 --> Call to a member function view() on null
+in APPPATH\Views\container.php on line 10.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('container', [], true)
+ 4 APPPATH\Controllers\Home.php(9): view('container')
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-28 00:49:28 --> Call to a member function view() on null
+in APPPATH\Views\container.php on line 10.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('container', [], true)
+ 4 APPPATH\Controllers\Home.php(9): view('container')
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-28 00:49:29 --> Call to a member function view() on null
+in APPPATH\Views\container.php on line 10.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('container', [], true)
+ 4 APPPATH\Controllers\Home.php(9): view('container')
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-28 00:51:37 --> Call to a member function view() on null
+in APPPATH\Views\container.php on line 10.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('container', [], true)
+ 4 APPPATH\Controllers\Home.php(9): view('container')
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-28 00:52:19 --> Call to a member function view() on null
+in APPPATH\Views\container.php on line 10.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('container', [], true)
+ 4 APPPATH\Controllers\Home.php(9): view('container')
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-28 00:54:11 --> Call to a member function view() on null
+in APPPATH\Views\container.php on line 10.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('container', [], true)
+ 4 APPPATH\Controllers\Home.php(9): view('container')
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-28 02:00:24 --> Call to a member function segment() on null
+in APPPATH\Views\container.php on line 81.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('container', [], true)
+ 4 APPPATH\Controllers\Home.php(9): view('container')
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-28 02:02:12 --> Call to a member function view() on null
+in APPPATH\Views\container.php on line 132.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('container', [], true)
+ 4 APPPATH\Controllers\Home.php(9): view('container')
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
