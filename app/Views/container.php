@@ -38,8 +38,8 @@
 				ADMIN
 			</button>
 			<ul class="dropdown-menu">
-				<li><a class="dropdown-item" href="#">LIST ADMIN</a></li>
-				<li><a class="dropdown-item" href="#">TAMBAH ADMIN</a></li>
+				<li><a class="dropdown-item" href="<?php echo site_url('admin') ?>">LIST ADMIN</a></li>
+				<li><a class="dropdown-item" href="<?php echo site_url('tambah.php') ?>">TAMBAH ADMIN</a></li>
 			</ul>
 		</div>
 		<br>
