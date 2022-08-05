@@ -20,18 +20,10 @@
 
 <body>
 	<nav class="navbar navbar-aqua bg-aqua">
-		<div class="container-fluid">
+		<div class="">
 			<button class="btn btn-secondary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">MENU <i class="fa-solid fa-bars"></i></button>
-			<h3>SISPERS (SISTEM INFORMASI PERSONEL)</h3>
-
-			<form class=" d-flex" role="search">
-				<input type="text" class="form-control" placeholder="Search for..." aria-label="Search" aria-describedby="basic-addon2">
-				<button class="btn btn-light" type="button">
-					<i class="fas fa-search"></i>
-				</button>
-
-			</form>
 		</div>
+		<h3>SISPERS (SISTEM INFORMASI PERSONEL)</h3>
 	</nav>
 
 
@@ -61,43 +53,77 @@
 				<li><a class="dropdown-item" href="#">TAMBAH ANGGOTA</a></li>
 			</ul>
 		</div>
+		<br>
+		<div class="btn-group ">
+			<button type="button" class="btn btn-secondary " data-bs-toggle="dropdown" aria-expanded="false">
+				KELUAR
+			</button>
+		</div>
+	</div>
+
+
+	<div class="card text-center">
+
+		<!-- <div class="card mb-3">
+			<div class="d-flex">
+				<div class="p-2 w-100">Flex item</div>
+				<div class="p-2 flex-shrink-1">
+					<form class=" d-flex" role="search">
+						<input type="text" class="form-control" placeholder="Search for..." aria-label="Search" aria-describedby="basic-addon2">
+						<button class="btn btn-light" type="button">
+							<i class="fas fa-search"></i>
+						</button>
+					</form>
+				</div>
+			</div>
+		</div> -->
+		<div class="card-header"> <i class="fas fa-chart-area"></i>JUMLAH ANGGOTA</div>
+		<div class="p-2 flex-shrink-1">
+			<form class=" d-flex" role="search">
+				<input type="text" class="form-control" placeholder="Search for..." aria-label="Search" aria-describedby="basic-addon2">
+				<button class="btn btn-light" type="button">
+					<i class="fas fa-search"></i>
+				</button>
+			</form>
+
+
+
+
+			<div class="card mb-3">
+				<div class="card-header">
+					<a><i class="fas fa-plus"></i> TAMBAH DATA</a>
+				</div>
+				<div class="card-body">
+
+					<div class="table-responsive">
+						<table class="table table-hover" id="dataTable" width="100%" cellspacing="0">
+							<thead>
+								<tr>
+									<th>NRP</th>
+									<th>NAMA</th>
+									<th>PANGKAT</th>
+									<th>JABATAN</th>
+									<th>AKSI</th>
+								</tr>
+							</thead>
+							<tbody>
+
+
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+
 
 
 	</div>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<footer class="sticky-footer">
-		<div class="container my-auto">
-			<div class="copyright text-center my-auto">
-				<span>Copyright <?php echo "BAGRENMIN ", DATE("Y")  ?></span>
-			</div>
-		</div>
-	</footer>
+	<div class="card-footer small text-muted"><span>Copyright <?php echo "BAGRENMIN ", DATE("Y")  ?></span></div>
+
+	</div>
+
+
 
 </body>
 
