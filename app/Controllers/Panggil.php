@@ -8,4 +8,5 @@ class Panggil extends BaseController
     {
         return view('Home');
     }
+	
 }
