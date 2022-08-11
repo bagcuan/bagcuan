@@ -7,7 +7,7 @@
 	<script type="text/javascript" src="<?php echo base_url(); ?>/public/js/jquery.dataTables.js"></script>
 	<script type="text/javascript" src="<?php echo base_url(); ?>/public/js/dataTables.bootstrap4.js"></script>
 	<script type="text/javascript" src="<?php echo base_url(); ?>/public/js/dataTables.bootstrap4.js"></script>
-	<script type="text/javascript" src="<?php echo base_url(); ?>/public/fontawesome/css/all.min.js"></script>
+	
 	<script type="text/javascript" src="<?php echo base_url(); ?>/public/fontawesome/js/all.min.js"></script>
 
 
