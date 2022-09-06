@@ -1,0 +1,99 @@
+CRITICAL - 2022-08-28 22:37:55 --> Invalid file: post-create.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('post-create.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('post-create', [], true)
+ 3 APPPATH\Controllers\Panggil.php(137): view('post-create', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Panggil->store()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panggil))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-28 22:56:03 --> Invalid file: post-create.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('post-create.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('post-create', [], true)
+ 3 APPPATH\Controllers\Panggil.php(137): view('post-create', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Panggil->store()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panggil))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-28 22:58:09 --> Invalid file: post-create.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('post-create.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('post-create', [], true)
+ 3 APPPATH\Controllers\Panggil.php(137): view('post-create', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Panggil->store()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panggil))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-28 23:02:25 --> Invalid file: Pannggil-create.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Pannggil-create.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Pannggil-create', [], true)
+ 3 APPPATH\Controllers\Panggil.php(137): view('Pannggil-create', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Panggil->store()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panggil))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-28 23:02:26 --> Invalid file: Pannggil-create.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Pannggil-create.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Pannggil-create', [], true)
+ 3 APPPATH\Controllers\Panggil.php(137): view('Pannggil-create', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Panggil->store()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panggil))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-28 23:02:27 --> Invalid file: Pannggil-create.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Pannggil-create.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Pannggil-create', [], true)
+ 3 APPPATH\Controllers\Panggil.php(137): view('Pannggil-create', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Panggil->store()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panggil))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-28 23:02:27 --> Invalid file: Pannggil-create.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Pannggil-create.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Pannggil-create', [], true)
+ 3 APPPATH\Controllers\Panggil.php(137): view('Pannggil-create', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Panggil->store()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panggil))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-28 23:02:27 --> Invalid file: Pannggil-create.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Pannggil-create.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Pannggil-create', [], true)
+ 3 APPPATH\Controllers\Panggil.php(137): view('Pannggil-create', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Panggil->store()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panggil))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-28 23:02:55 --> Invalid file: Panggil-create.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Panggil-create.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Panggil-create', [], true)
+ 3 APPPATH\Controllers\Panggil.php(137): view('Panggil-create', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Panggil->store()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panggil))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-28 23:02:55 --> Invalid file: Panggil-create.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Panggil-create.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Panggil-create', [], true)
+ 3 APPPATH\Controllers\Panggil.php(137): view('Panggil-create', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Panggil->store()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panggil))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-28 23:05:32 --> Invalid file: Panggil-create.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Panggil-create.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Panggil-create', [], true)
+ 3 APPPATH\Controllers\Panggil.php(137): view('Panggil-create', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Panggil->store()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panggil))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

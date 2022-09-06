@@ -8,4 +8,9 @@ class Home extends BaseController
     {
         return view('container');
     }
+
+    public function listanggota()
+    {
+        return view('listanggota');
+    }
 }

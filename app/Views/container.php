@@ -7,7 +7,7 @@
 	<script type="text/javascript" src="<?php echo base_url(); ?>/public/js/jquery.dataTables.js"></script>
 	<script type="text/javascript" src="<?php echo base_url(); ?>/public/js/dataTables.bootstrap4.js"></script>
 	<script type="text/javascript" src="<?php echo base_url(); ?>/public/js/dataTables.bootstrap4.js"></script>
-	<script type="text/javascript" src="<?php echo base_url(); ?>/public/fontawesome/css/all.min.js"></script>
+
 	<script type="text/javascript" src="<?php echo base_url(); ?>/public/fontawesome/js/all.min.js"></script>
 
 
@@ -33,14 +33,11 @@
 			<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
 		</div>
 
-		<div class="btn-group dropend">
-			<button class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-				ADMIN
-			</button>
-			<ul class="dropdown-menu">
-				<li><a class="dropdown-item" href="<?php echo site_url('admin') ?>">LIST ADMIN</a></li>
-				<li><a class="dropdown-item" href="<?php echo site_url('tambah.php') ?>">TAMBAH ADMIN</a></li>
-			</ul>
+		<div class="btn-group ">
+
+			<a type="button" class="btn btn-secondary " href="index">
+				HOME</a>
+
 		</div>
 		<br>
 
@@ -49,8 +46,8 @@
 				ANGGOTA
 			</button>
 			<ul class="dropdown-menu">
-				<li><a class="dropdown-item" href="#">LIST ANGGOTA</a></li>
-				<li><a class="dropdown-item" href="#">TAMBAH ANGGOTA</a></li>
+				<li><a class="dropdown-item" href="listanggota">LIST ANGGOTA</a></li>
+				<li><a class="dropdown-item" href="tambahanggota">TAMBAH ANGGOTA</a></li>
 			</ul>
 		</div>
 		<br>
@@ -62,63 +59,9 @@
 	</div>
 
 
-	<div class="card text-center">
-
-		<!-- <div class="card mb-3">
-			<div class="d-flex">
-				<div class="p-2 w-100">Flex item</div>
-				<div class="p-2 flex-shrink-1">
-					<form class=" d-flex" role="search">
-						<input type="text" class="form-control" placeholder="Search for..." aria-label="Search" aria-describedby="basic-addon2">
-						<button class="btn btn-light" type="button">
-							<i class="fas fa-search"></i>
-						</button>
-					</form>
-				</div>
-			</div>
-		</div> -->
-		<div class="card-header"> <i class="fas fa-chart-area"></i>JUMLAH ANGGOTA</div>
-		<div class="p-2 flex-shrink-1">
-			<form class=" d-flex" role="search">
-				<input type="text" class="form-control" placeholder="Search for..." aria-label="Search" aria-describedby="basic-addon2">
-				<button class="btn btn-light" type="button">
-					<i class="fas fa-search"></i>
-				</button>
-			</form>
-
-
-
-
-			<div class="card mb-3">
-				<div class="card-header">
-					<a><i class="fas fa-plus"></i> TAMBAH DATA</a>
-				</div>
-				<div class="card-body">
-
-					<div class="table-responsive">
-						<table class="table table-hover" id="dataTable" width="100%" cellspacing="0">
-							<thead>
-								<tr>
-									<th>NRP</th>
-									<th>NAMA</th>
-									<th>PANGKAT</th>
-									<th>JABATAN</th>
-									<th>AKSI</th>
-								</tr>
-							</thead>
-							<tbody>
-
-
-							</tbody>
-						</table>
-					</div>
-				</div>
-			</div>
-		</div>
-
-
-
-	</div>
+	<?php
+	$this->renderSection('isi');
+	?>
 	<div class="card-footer small text-muted"><span>Copyright <?php echo "BAGRENMIN ", DATE("Y")  ?></span></div>
 
 	</div>

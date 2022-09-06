@@ -1,0 +1,77 @@
+CRITICAL - 2022-08-12 01:39:57 --> Undefined variable: data_anggota
+in APPPATH\Views\listanggota.php on line 26.
+ 1 APPPATH\Views\listanggota.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data_anggota', 'APPPATH\\Views\\listanggota.php', 26, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\listanggota.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('listanggota', [], true)
+ 5 APPPATH\Controllers\Panggil.php(28): view('listanggota')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Panggil->listanggota()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panggil))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-12 01:39:59 --> Undefined variable: data_anggota
+in APPPATH\Views\listanggota.php on line 26.
+ 1 APPPATH\Views\listanggota.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data_anggota', 'APPPATH\\Views\\listanggota.php', 26, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\listanggota.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('listanggota', [], true)
+ 5 APPPATH\Controllers\Panggil.php(28): view('listanggota')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Panggil->listanggota()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panggil))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-12 01:40:30 --> Undefined variable: data_anggota
+in APPPATH\Views\Home.php on line 38.
+ 1 APPPATH\Views\Home.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data_anggota', 'APPPATH\\Views\\Home.php', 38, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Home', [], true)
+ 5 APPPATH\Controllers\Panggil.php(25): view('Home')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Panggil->listanggota()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panggil))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-12 01:40:35 --> Undefined variable: data_anggota
+in APPPATH\Views\Home.php on line 38.
+ 1 APPPATH\Views\Home.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data_anggota', 'APPPATH\\Views\\Home.php', 38, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Home', [], true)
+ 5 APPPATH\Controllers\Panggil.php(25): view('Home')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Panggil->listanggota()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panggil))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-12 01:40:35 --> Undefined variable: data_anggota
+in APPPATH\Views\Home.php on line 38.
+ 1 APPPATH\Views\Home.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data_anggota', 'APPPATH\\Views\\Home.php', 38, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Home', [], true)
+ 5 APPPATH\Controllers\Panggil.php(25): view('Home')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Panggil->listanggota()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panggil))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-12 01:40:36 --> Undefined variable: data_anggota
+in APPPATH\Views\Home.php on line 38.
+ 1 APPPATH\Views\Home.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data_anggota', 'APPPATH\\Views\\Home.php', 38, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Home', [], true)
+ 5 APPPATH\Controllers\Panggil.php(25): view('Home')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Panggil->listanggota()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panggil))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-12 01:40:36 --> Undefined variable: data_anggota
+in APPPATH\Views\Home.php on line 38.
+ 1 APPPATH\Views\Home.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data_anggota', 'APPPATH\\Views\\Home.php', 38, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Home', [], true)
+ 5 APPPATH\Controllers\Panggil.php(25): view('Home')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Panggil->listanggota()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panggil))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

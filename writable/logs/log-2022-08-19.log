@@ -1,0 +1,9 @@
+CRITICAL - 2022-08-19 02:30:35 --> Invalid file: panggil/tambahanggota.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('panggil/tambahanggota.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('panggil/tambahanggota', [], true)
+ 3 APPPATH\Controllers\Panggil.php(39): view('panggil/tambahanggota', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Panggil->tambahanggota()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panggil))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
