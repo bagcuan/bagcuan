@@ -58,6 +58,7 @@ in APPPATH\Views\Home.php on line 38.
  7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panggil))
  8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+<<<<<<< HEAD
 CRITICAL - 2022-08-11 02:57:29 --> Cannot redeclare App\Controllers\Panggil::index()
 in APPPATH\Controllers\Panggil.php on line 20.
  1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
@@ -75,3 +76,5 @@ in APPPATH\Views\listanggota.php on line 26.
  7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panggil))
  8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+=======
+>>>>>>> 9d156ea2bd53e9644453acc6f2511df10017f415

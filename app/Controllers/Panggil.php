@@ -1,7 +1,10 @@
 <?php
 
 namespace App\Controllers;
+<<<<<<< HEAD
 
+=======
+>>>>>>> 9d156ea2bd53e9644453acc6f2511df10017f415
 use App\Models\tampilmodel;
 
 class Panggil extends BaseController
@@ -9,6 +12,7 @@ class Panggil extends BaseController
     public function index()
     {
 
+<<<<<<< HEAD
         $tampilmodel = new tampilmodel();
         $data = $tampilmodel->findAll();
 
@@ -181,4 +185,13 @@ class Panggil extends BaseController
     //         return redirect()->to(base_url('panggil'));
     //     }
     // }
+=======
+		$tampilmodel = new tampilmodel();
+		$data = $tampilmodel->findAll();
+		
+		$kirim=['data_anggota'=>$data];
+		
+        return view('Home',$kirim);
+    }
+>>>>>>> 9d156ea2bd53e9644453acc6f2511df10017f415
 }

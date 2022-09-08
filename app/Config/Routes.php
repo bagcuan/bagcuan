@@ -25,7 +25,11 @@ $routes->set404Override();
 // where controller filters or CSRF protection are bypassed.
 // If you don't want to define all routes, please use the Auto Routing (Improved).
 // Set `$autoRoutesImproved` to true in `app/Config/Feature.php` and set the following to true.
+<<<<<<< HEAD
 $routes->setAutoRoute(true);
+=======
+//$routes->setAutoRoute(false);
+>>>>>>> 9d156ea2bd53e9644453acc6f2511df10017f415
 
 /*
  * --------------------------------------------------------------------
@@ -35,10 +39,14 @@ $routes->setAutoRoute(true);
 
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
+<<<<<<< HEAD
 $routes->get('/', 'panggil::index');
 
 // $routes->get('create', 'panggil::create');
 // $routes->get('save', 'panggil::save');
+=======
+$routes->get('/', 'Panggil::index');
+>>>>>>> 9d156ea2bd53e9644453acc6f2511df10017f415
 
 /*
  * --------------------------------------------------------------------

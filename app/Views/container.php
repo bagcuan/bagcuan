@@ -7,7 +7,11 @@
 	<script type="text/javascript" src="<?php echo base_url(); ?>/public/js/jquery.dataTables.js"></script>
 	<script type="text/javascript" src="<?php echo base_url(); ?>/public/js/dataTables.bootstrap4.js"></script>
 	<script type="text/javascript" src="<?php echo base_url(); ?>/public/js/dataTables.bootstrap4.js"></script>
+<<<<<<< HEAD
 
+=======
+	
+>>>>>>> 9d156ea2bd53e9644453acc6f2511df10017f415
 	<script type="text/javascript" src="<?php echo base_url(); ?>/public/fontawesome/js/all.min.js"></script>
 
 
@@ -33,11 +37,22 @@
 			<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
 		</div>
 
+<<<<<<< HEAD
 		<div class="btn-group ">
 
 			<a type="button" class="btn btn-secondary " href="index">
 				HOME</a>
 
+=======
+		<div class="btn-group dropend">
+			<button class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+				ADMIN
+			</button>
+			<ul class="dropdown-menu">
+				<li><a class="dropdown-item" href="#">LIST ADMIN</a></li>
+				<li><a class="dropdown-item" href="#">TAMBAH ADMIN</a></li>
+			</ul>
+>>>>>>> 9d156ea2bd53e9644453acc6f2511df10017f415
 		</div>
 		<br>
 
@@ -46,8 +61,13 @@
 				ANGGOTA
 			</button>
 			<ul class="dropdown-menu">
+<<<<<<< HEAD
 				<li><a class="dropdown-item" href="listanggota">LIST ANGGOTA</a></li>
 				<li><a class="dropdown-item" href="tambahanggota">TAMBAH ANGGOTA</a></li>
+=======
+				<li><a class="dropdown-item" href="#">LIST ANGGOTA</a></li>
+				<li><a class="dropdown-item" href="#">TAMBAH ANGGOTA</a></li>
+>>>>>>> 9d156ea2bd53e9644453acc6f2511df10017f415
 			</ul>
 		</div>
 		<br>
@@ -59,8 +79,13 @@
 	</div>
 
 
+<<<<<<< HEAD
 	<?php
 	$this->renderSection('isi');
+=======
+	<?php 
+		$this->renderSection('isi');
+>>>>>>> 9d156ea2bd53e9644453acc6f2511df10017f415
 	?>
 	<div class="card-footer small text-muted"><span>Copyright <?php echo "BAGRENMIN ", DATE("Y")  ?></span></div>
 
