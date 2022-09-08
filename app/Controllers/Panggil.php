@@ -52,6 +52,8 @@ class Panggil extends BaseController
 
     public function save()
     {
+        $tampilmodel = new tampilmodel();
+        $data = $tampilmodel->findAll();
         $this->tampilmodel->save(
             [
                 'nama' => $this->request->getVar('nama'),
